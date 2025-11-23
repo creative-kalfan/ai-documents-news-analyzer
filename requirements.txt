@@ -1,0 +1,53 @@
+streamlit==1.26.0
+pillow==9.5.0
+opencv-python-headless==4.8.0.76
+pytesseract==0.3.10
+pdf2image==1.16.3
+numpy==1.26.4
+python-multipart==0.0.6
+python-dotenv==1.0.0
+transformers>=4.40.0
+datasets
+sentence-transformers
+faiss-cpu          # or faiss-gpu if you have GPU
+scikit-learn
+torch
+spacy              # optional, for claim extraction
+pyarrow
+# ---------- Core Framework ----------
+streamlit==1.26.0
+
+# ---------- OCR & Image Processing ----------
+pillow==9.5.0
+opencv-python-headless==4.8.0.76
+pytesseract==0.3.10
+pdf2image==1.16.3
+numpy==1.26.4
+
+# ---------- ML / NLP / Transformers ----------
+torch
+transformers>=4.40.0
+datasets
+sentence-transformers
+scikit-learn
+faiss-cpu
+
+# ---------- RAG / Search ----------
+pyarrow
+
+# ---------- Utilities ----------
+python-dotenv==1.0.0
+python-multipart==0.0.6
+requests
+
+# ---------- NLP Processing ----------
+spacy
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+fpdf2              # for PDF generation
+sqlalchemy         # optional, but used in code if you prefer
+python-dotenv      # already present, ok to keep
+fastapi
+uvicorn
+python-multipart
+requests
+fpdf2
